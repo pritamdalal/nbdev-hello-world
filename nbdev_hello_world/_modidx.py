@@ -5,4 +5,6 @@ d = { 'settings': { 'branch': 'main',
                 'doc_host': 'https://pritamdalal.github.io',
                 'git_url': 'https://github.com/pritamdalal/nbdev-hello-world',
                 'lib_path': 'nbdev_hello_world'},
-  'syms': {'nbdev_hello_world.core': {'nbdev_hello_world.core.foo': ('core.html#foo', 'nbdev_hello_world/core.py')}}}
+  'syms': { 'nbdev_hello_world.renamed': { 'nbdev_hello_world.renamed.foo': ('renamed.html#foo', 'nbdev_hello_world/renamed.py'),
+                                           'nbdev_hello_world.renamed.say_hello': ( 'renamed.html#say_hello',
+                                                                                    'nbdev_hello_world/renamed.py')}}}
